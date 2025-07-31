@@ -37,5 +37,6 @@ This project is a responsive and interactive web-based Online Learning Platform 
 
 🤝 Contribution
 Contributions are welcome! Feel free to fork this repository and submit pull requests for improvements, styling updates, or backend integration.
+
 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
