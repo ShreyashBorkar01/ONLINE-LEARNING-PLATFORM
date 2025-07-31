@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard - LearnHub</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="dashboard.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Dashboard</h1>
+    <button onclick="logout()">Logout</button>
+  </header>
+  <main class="dashboard-main">
+    <h2>Available Courses</h2>
+    <div class="course-grid">
+      <div class="course-card" onclick="goToCourse('python')">Python Programming</div>
+      <div class="course-card" onclick="goToCourse('java')">Java Development</div>
+      <div class="course-card" onclick="goToCourse('php')">PHP for Web</div>
+      <div class="course-card" onclick="goToCourse('cpp')">C++ Essentials</div>
+      <div class="course-card" onclick="goToCourse('js')">JavaScript Mastery</div>
+
+    </div>
+    <div id="adminPanel" class="admin-panel hidden">
+      <h3>Admin Panel</h3>
+      <p>Welcome Admin! You can manage courses and users.</p>
+    </div>
+  </main>
+</body>
+</html>
